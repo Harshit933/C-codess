@@ -3,7 +3,7 @@
 int main(){
     char ch[10];
     int j;
-    fgets(ch);
+    scanf("%s",&ch);
     int i =0;
     int count =0;
     while(ch[i] != '\0'){
